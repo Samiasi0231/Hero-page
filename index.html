@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Build Products That Think</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+    rel="stylesheet" />
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/hero.css" />
+  <link rel="stylesheet" href="css/cards.css" />
+  <link rel="stylesheet" href="css/ticker.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <style>
+    .icon {
+      width: 14px;
+      height: 14px;
+      stroke-width: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="bg-orb bg-orb--top-right" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb--bottom-left" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <a href="/" class="nav__logo">Design Hive</a>
+
+    <ul class="nav__links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+
+    <a href="#contact" class="nav__cta">Get a quote</a>
+  </nav>
+
+  <main>
+    <section class="hero" aria-label="Hero section">
+
+      <div class="hero__left">
+
+        <div class="eyebrow" aria-label="Category">
+          <span class="eyebrow__dot" aria-hidden="true"></span>
+          AI-Powered Technology Partner
+        </div>
+
+        <h1 class="hero__headline">
+          <span class="headline-line"><span>We build</span></span>
+          <span class="headline-line"><span>products that</span></span>
+          <span class="headline-line"><span><em>think.</em></span></span>
+        </h1>
+
+        <p class="hero__sub">
+          From intelligent interfaces to production-grade AI systems — we design
+          and engineer digital products that move fast, feel great, and scale
+          with your ambition.
+        </p>
+
+        <div class="hero__actions">
+
+          <a href="#contact" class="btn-primary">
+            Start a project
+            <i data-lucide="arrow-right" class="icon"></i>
+          </a>
+
+          <button class="btn-ghost" type="button" aria-label="Watch our showreel">
+            <span class="btn-ghost__icon">
+              <i data-lucide="play" class="icon"></i>
+            </span>
+            Watch our reel
+          </button>
+
+        </div>
+
+        <div class="hero__stats" aria-label="Key statistics">
+          <div class="stat-item">
+            <div class="stat-item__number">100M+</div>
+            <div class="stat-item__label">Users across products</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__number">6K+</div>
+            <div class="stat-item__label">Builders in community</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__number">5.0★</div>
+            <div class="stat-item__label">Average client rating</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="hero__right" aria-hidden="true">
+
+        <article class="card card--main">
+
+          <div class="card__top">
+            <span class="card__tag">
+              <i data-lucide="sparkles" class="icon"></i>
+              Featured work
+            </span>
+            <span class="card__year">2025</span>
+          </div>
+
+          <div class="card__image">
+            <div class="img-cell"></div>
+            <div class="img-cell"></div>
+            <div class="img-cell"></div>
+            <div class="img-cell"></div>
+            <div class="img-cell"></div>
+            <span class="card__image-label">The Intelligent File Project</span>
+          </div>
+
+          <h2 class="card__title">
+            Founder-led. Built with operators.<br />Backed by the best.
+          </h2>
+
+          <div class="card__meta">
+            <div class="avatars">
+              <div class="avatar avatar--a">U</div>
+              <div class="avatar avatar--b">K</div>
+              <div class="avatar avatar--c">R</div>
+            </div>
+
+            <div class="live-badge">
+              <span class="live-badge__dot"></span>
+              Live product
+            </div>
+          </div>
+
+        </article>
+
+        <div class="card card--metrics">
+
+          <div class="metric-row">
+            <div class="metric-row__header">
+              <span class="metric-row__label">Community growth</span>
+              <span class="metric-row__value">+34% this month</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" style="--fill-width: 68%; --fill-delay: 1.4s;"></div>
+            </div>
+          </div>
+
+          <div class="metric-row">
+            <div class="metric-row__header">
+              <span class="metric-row__label">Product delivery rate</span>
+              <span class="metric-row__value">98.4%</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" style="--fill-width: 98%; --fill-delay: 1.55s;"></div>
+            </div>
+          </div>
+
+          <div class="metric-row">
+            <div class="metric-row__header">
+              <span class="metric-row__label">Client satisfaction</span>
+              <span class="metric-row__value">5.0 / 5.0</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" style="--fill-width: 100%; --fill-delay: 1.7s;"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="float-tag float-tag--gold">
+          <i data-lucide="shield" class="icon"></i>
+          Backed by the best
+        </div>
+
+        <div class="float-tag float-tag--dark">
+          <i data-lucide="users" class="icon"></i>
+          Founder-led team
+        </div>
+
+      </div>
+
+    </section>
+
+    <div class="ticker" role="marquee" aria-label="Trusted by these partners">
+      <span class="ticker__label">Trusted by</span>
+      <div class="ticker__track" aria-hidden="true">
+        <span class="ticker__item">Blink Capital</span>
+        <span class="ticker__item">Designer Fund</span>
+        <span class="ticker__item">Zennist ST</span>
+        <span class="ticker__item">O2 Agency</span>
+        <span class="ticker__item">02 Ventures</span>
+        <span class="ticker__item">Blink Capital</span>
+        <span class="ticker__item">Designer Fund</span>
+        <span class="ticker__item">Zennist ST</span>
+        <span class="ticker__item">O2 Agency</span>
+        <span class="ticker__item">02 Ventures</span>
+        <span class="ticker__item">Blink Capital</span>
+        <span class="ticker__item">Designer Fund</span>
+        <span class="ticker__item">Zennist ST</span>
+        <span class="ticker__item">O2 Agency</span>
+        <span class="ticker__item">02 Ventures</span>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+
+  <script>
+    lucide.createIcons();
+  </script>
+
+</body>
+
+</html>

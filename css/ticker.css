@@ -1,0 +1,39 @@
+.ticker {
+  position: relative;
+  z-index: 5;
+  border-top: 1px solid var(--border);
+  padding: 16px var(--page-pad);
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  overflow: hidden;
+
+  opacity: 0;
+  animation: riseUp 0.6s 1.5s var(--ease-out) forwards;
+}
+
+.ticker__label {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* The track is duplicated in HTML so the loop is seamless */
+.ticker__track {
+  display: flex;
+  gap: 44px;
+  flex-shrink: 0;
+  animation: scroll 22s linear infinite;
+}
+
+.ticker__item {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--text-dim);
+  white-space: nowrap;
+  letter-spacing: 0.5px;
+}
